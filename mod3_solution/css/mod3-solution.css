@@ -1,0 +1,23 @@
+
+        .container-md-sm-xs {
+            margin: 35px;
+        }
+
+        /* this styles the navigation bar when scrolled...you can do whatever colors or effects you like*/
+		
+		
+        .navbar.scrolled {
+            background-color: rgb(128, 126, 126);
+            transition: background 300ms;
+        }
+
+        #mainNavBar .nav-link:hover {
+            color: white;
+        }
+
+        /* makes the navbar header stand out as a link when hovered*/
+
+        #mainNavBar .navbar-brand:hover {
+            color: red;
+        }
+ 

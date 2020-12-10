@@ -1,56 +1,350 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Media Queries</title>
-</head>
-<body>
-<link rel="stylesheet" href="css/mod2-solution.css">
-  
-<h1>Media Queries</h1>
-<!---
-<div class="media-container">
--->
-<div class="medi-con">
-<div class="media blue">
-  <span>
-    Chicken
-    </span>
-  <p id="p1">
-    
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus deserunt nesciunt aperiam dolorem 
-            recusandae nostrum cum. Nobis, labore obcaecati. Quod dolor praesentium architecto deleniti
-             exercitationem alias perspiciatis reiciendis maiores voluptatibus quo ducimus unde incidunt
-              necessitatibus vitae tempore iure, molestiae, nesciunt quas possimus accusantium doloremque eligendi,
-               doloribus assumenda repudiandae! Minima facilis culpa, neque eos expedita dolorum dolore architecto eaque, 
-               incidunt aspernatur hic vitae et deleniti, rem inventore fuga iusto ipsa dicta consequatur fugit! 
-  </p>
-  </div>
-  <div class="media yellow"> 
-     <span>Beef</span>
-<p id="p2">
- 
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus deserunt nesciunt aperiam dolorem 
-            recusandae nostrum cum. Nobis, labore obcaecati. Quod dolor praesentium architecto deleniti
-             exercitationem alias perspiciatis reiciendis maiores voluptatibus quo ducimus unde incidunt
-              necessitatibus vitae tempore iure, molestiae, nesciunt quas possimus accusantium doloremque eligendi,
-               doloribus assumenda repudiandae! Minima facilis culpa, neque eos expedita dolorum dolore architecto eaque, 
-               incidunt aspernatur hic vitae et deleniti, rem inventore fuga iusto ipsa dicta consequatur fugit! 
-</p>
-  </div>
-  <div class="media red">
-     <span>Sushi</span>
-<p id="p3">
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus deserunt nesciunt aperiam dolorem 
-            recusandae nostrum cum. Nobis, labore obcaecati. Quod dolor praesentium architecto deleniti
-             exercitationem alias perspiciatis reiciendis maiores voluptatibus quo ducimus unde incidunt
-              necessitatibus vitae tempore iure, molestiae, nesciunt quas possimus accusantium doloremque eligendi,
-               doloribus assumenda repudiandae! Minima facilis culpa, neque eos expedita dolorum dolore architecto eaque, 
-               incidunt aspernatur hic vitae et deleniti, rem inventore fuga iusto ipsa dicta consequatur fugit! 
-</p>
-  </div>
-  </div>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>GotMayonaise</title>
 
-  
-</body>
-</html>
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="css/bootstrap.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	   <link rel="stylesheet" href="css/mod3-solution.css">
+
+    <!--you can declare/style classes just as you would in an external css file, no need for brackets and the class declaration-->
+
+</head>
+
+<!--I removed some of the styling because it was redundant or unnecessary, like text-left, by default the text will be aligned left. The navbar is already static by default. I'm not sure what this "navbar-expand-xl-lg-md-sm-xs" meant..so I just removed it and it didn't seem to make a difference? You can re-add the text-light and bg-secondary and remove the animation if you would care and make the navbar permanently stickied at the top as well. The options are endless when it comes to styling-->
+
+<body>
+    <nav id="mainNavBar" class="navbar navbar-dark navbar-expand-md py-0 sticky-top">
+        <a href="#" class="navbar-brand">FOOD, LLC</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">TICKETS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="text-center mt-2">OUR MENU</h1>
+
+    <div class="container-md-sm-xs">
+        <div class="row col-12">
+            <div class="col-lg-md-sm-xs bg-success pt-2 px-2">
+                <h3 class="text-center">Chicken</h3>
+                <p class="m-3 p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, unde sit
+                    sequi impedit quia ab voluptate. Est esse facilis asperiores
+                    saepe possimus maxime quia ad sed impedit et. Mollitia, tempore.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    error quidem consequatur reprehenderit?
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+
+                </p>
+
+            </div>
+            <div class="col-xs-12 col-xl-12 bg-danger mt-3 pt-2 px-2">
+                <h3 class="text-center">Beef</h3>
+                <p class="m-3 p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae,
+                    unde sit sequi impedit quia ab voluptate. Est esse facilis asperiores
+                    saepe possimus maxime quia ad sed impedit et. Mollitia, tempore.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                </p>
+            </div>
+            <div class="col-xs-12 col-md-12 bg-dark text-light mt-3 pt-2 px-2">
+                <h3 class="text-center">Sushi</h3>
+                <p class="p-2 m-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Recusandae, unde sit sequi impedit quia ab voluptate. Est esse
+                    facilis asperiores saepe possimus maxime quia ad sed impedit et.
+                    Mollitia, tempore.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quiddark text-lightem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Corporis, assumenda saepe sint aliquid cupiditate qui corrupti
+                    accusantium excepturi,
+                    consectetur vel necessitatibus esse tenetur, fugiat quasi quaerat
+                    error quidem consequatur reprehenderit?
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--I fixed your script links down here as well as in the header, this is all (im pretty sure) required per the bootstrap site-->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="js/popper.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="js/bootstrap.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+
+    <!-- Optional JavaScript/JQuery to create the fade-in of the navigation bar -->
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavBar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
+
+
+
+</body></html>
